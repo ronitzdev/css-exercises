@@ -1,0 +1,15 @@
+.bg-rose {
+  background-color: #ffc0cb;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#color-blue {
+  color: blue;
+  font-size: 36px;
+}
+.size {
+  font-size: 24px;
+}
+#bg-green {
+  background-color: greenyellow;
+  font-weight: bold;
+}
