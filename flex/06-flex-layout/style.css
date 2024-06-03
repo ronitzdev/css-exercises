@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  overflow: hidden;
+}
 body {
   height: 100vh;
   margin: 0;
@@ -8,7 +16,8 @@ body {
 }
 
 img {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
 }
 
 button {
@@ -23,4 +32,79 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  gap: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.left-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+.left-links a {
+  text-decoration: none;
+  color: #4b5563;
+}
+.right-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+.right-links a {
+  text-decoration: none;
+  color: #4b5563;
+}
+
+/* logo  */
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* buttons */
+.buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 7px 15px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  gap: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #eeeeee;
+}
+
+.left-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.right-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
 }
